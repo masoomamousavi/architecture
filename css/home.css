@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+}
+
+nav,
+div.head1 {
+    height: 40px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px;
+    border-bottom: ridge;
+}
+
+nav {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(105, 173, 250);
+    font-size: 22px;
+}
+
+div.head1 {
+    float: left;
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+}
+
+p.Architect {
+
+    display: inline;
+}
+
+article {
+    background-image: url("../images/architect.jpg");
+    height: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+p.BR {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 550px;
+}
+
+div.div1 {
+    background-image: url("../images/first.jpg");
+    float: left;
+}
+
+div.div2 {
+    background-image: url("../images/secound.jpg");
+    float: left;
+    margin-left: 8px;
+
+}
+
+div.div3 {
+    background-image: url("../images/third.jpg");
+    float: right;
+    margin-left: 8px;
+}
+
+div.div4 {
+    background-image: url("../images/fourth.jpg");
+    float: right;
+}
+
+div.div5 {
+    background-image: url("../images/fifth.jpg");
+    float: left;
+}
+
+div.div6 {
+    background-image: url("../images/sixth.jpg");
+    float: left;
+    margin-left: 8px;
+}
+
+div.div7 {
+    background-image: url("../images/seventh.jpg");
+    float: right;
+    margin-left: 8px;
+}
+
+div.div8 {
+    background-image: url("../images/third.jpg");
+    float: right;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 24%;
+    margin: 5px;
+}
+
+
+p.project {
+    background-color: black;
+    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+
+p.note1 {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+p.head {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about1,
+.about2,
+.about3,
+.about4 {
+    width: 23%;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img.about {
+    width: 100%;
+}
+
+div.about1 {
+    float: left;
+}
+
+div.about2 {
+    float: left;
+    margin-right: 15px;
+
+}
+
+div.about3 {
+    float: right;
+    margin-right: 12px;
+
+}
+
+div.about4 {
+    float: right;
+}
+
+button {
+    width: 99%;
+    height: 50px;
+    background-color: rgb(236, 235, 233);
+    border: none;
+}
+
+h2 {
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+h3 {
+    font-size: 14px;
+    color: rgb(109, 106, 103);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 2px;
+    border-bottom: ridge;
+    font-size: 25px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+
+p.contact {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+input.message {
+    width: 15%;
+    height: 40px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 15px;
+    display: inline;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+img.contact {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+div.about-people{
+
+    width: 90%;
+    margin-left: 60px;
+    margin-right: 60px;
+}
