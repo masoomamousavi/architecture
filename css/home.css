@@ -2,227 +2,245 @@
     box-sizing: border-box;
 }
 
-nav,
-div.head1 {
-    height: 40px;
-    width: 50%;
+@media screen and (max-width: 768px) {
+    div.menu {
+        text-align: left !important;
+    }
+
+    nav {
+        padding: 0px;
+    }
+
+}
+
+/* start header */
+
+nav {
+    position: fixed;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px;
     border-bottom: ridge;
-}
-
-nav {
-    float: right;
-    text-align: right;
-    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.10);
+    padding: 15px 30px !important;
 }
 
 a {
     text-decoration: none;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 15px;
-    padding-right: 15px;
     font-size: 20px;
 }
 
 a:hover {
-    color: rgb(105, 173, 250);
+    color: rgb(135, 138, 141);
     font-size: 22px;
 }
 
-div.head1 {
-    float: left;
+div.logo {
     text-align: left;
+}
+
+div.logo span {
     font-size: 23px;
+    font-weight: 300;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-left: 30px;
 }
 
-p.Architect {
+div.logo strong {
+    font-weight: 800;
+}
 
+div.menu {
+    text-align: right;
+}
+
+div.menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.menu ul li {
     display: inline;
+    padding: 0px 20px;
 }
 
-article {
+div.menu ul li.first {
+    padding: 0px 20px;
+    padding-left: 0px !important;
+}
+
+div.header-content {
     background-image: url("../images/architect.jpg");
-    height: 800px;
-    width: 90%;
+    background-size: 100% 100%;
     margin: auto;
+    height: 800px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p.BR {
+div.header-content span {
     color: aliceblue;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-top: 550px;
 }
 
-div.div1 {
-    background-image: url("../images/first.jpg");
-    float: left;
+div.header-content strong {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px;
 }
 
-div.div2 {
-    background-image: url("../images/secound.jpg");
-    float: left;
-    margin-left: 8px;
-
-}
-
-div.div3 {
-    background-image: url("../images/third.jpg");
-    float: right;
-    margin-left: 8px;
-}
-
-div.div4 {
-    background-image: url("../images/fourth.jpg");
-    float: right;
-}
-
-div.div5 {
-    background-image: url("../images/fifth.jpg");
-    float: left;
-}
-
-div.div6 {
-    background-image: url("../images/sixth.jpg");
-    float: left;
-    margin-left: 8px;
-}
-
-div.div7 {
-    background-image: url("../images/seventh.jpg");
-    float: right;
-    margin-left: 8px;
-}
-
-div.div8 {
-    background-image: url("../images/third.jpg");
-    float: right;
-}
-
-.div1,
-.div2,
-.div3,
-.div4,
-.div5,
-.div6,
-.div7,
-.div8 {
-    background-size: 300px 250px;
-    background-repeat: no-repeat;
-    height: 250px;
-    width: 24%;
-    margin: 5px;
-}
-
-
-p.project {
-    background-color: black;
-    display: inline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
-    color: aliceblue;
-    margin-top: 20px;
-    margin-top: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 2px;
-}
-
-p.note1 {
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
-p.head {
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.about1,
-.about2,
-.about3,
-.about4 {
-    width: 23%;
-    height: 300px;
-    margin-top: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-img.about {
-    width: 100%;
-}
-
-div.about1 {
-    float: left;
-}
-
-div.about2 {
-    float: left;
-    margin-right: 15px;
-
-}
-
-div.about3 {
-    float: right;
-    margin-right: 12px;
-
-}
-
-div.about4 {
-    float: right;
-}
-
-button {
-    width: 99%;
-    height: 50px;
-    background-color: rgb(236, 235, 233);
-    border: none;
-}
-
-h2 {
-    font-size: 19px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-h3 {
-    font-size: 14px;
-    color: rgb(109, 106, 103);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: oblique;
-    margin-left: 8px;
-    margin-right: 8px;
+/* end header */
+/* start project-styles */
+div.projects {
+    margin-top: 5%;
+    padding: 0px 30px;
 }
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-bottom: 2px;
-    border-bottom: ridge;
     font-size: 25px;
-    height: 30px;
-    margin-top: 20px;
+    color: #161616dd;
+    display: block;
+    padding: 20px 0px;
+    border-bottom: 1px solid #DDDD;
+}
+
+div.project-row {
+    margin-top: 2%;
+}
+
+div.project1 {
+    background-image: url("../images/first.jpg");
+
+}
+
+div.project2 {
+    background-image: url("../images/secound.jpg");
+}
+
+div.project3 {
+    background-image: url("../images/third.jpg");
+
+}
+
+div.project4 {
+    background-image: url("../images/fourth.jpg");
+
+}
+
+div.project5 {
+    background-image: url("../images/fifth.jpg");
+}
+
+div.project6 {
+    background-image: url("../images/sixth.jpg");
+
+}
+
+div.project7 {
+    background-image: url("../images/seventh.jpg");
+
+}
+
+div.project8 {
+    background-image: url("../images/third.jpg");
+
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7,
+.project8 {
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    height: 250px;
 }
 
 
-p.contact {
+span.img-text {
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    color: aliceblue;
+    padding: 10px;
+    display: inline-block;
+    margin-left: -8px;
+    text-align: center;
+
+}
+
+/* end project styles  */
+/* start about styles */
+div.about {
+    margin-top: 5%;
+    padding: 0px 30px;
+}
+
+div.about p {
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 15px;
+}
+
+
+div.person {
+  margin-bottom:5%;
+}
+
+div.person img {
+    width: 100%;
+}
+
+
+
+div.person h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #0f0f0fdd;
+}
+
+div.person h3 {
+    font-size: 18px;
+    color: rgb(31, 30, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+div.person p {
+    color: #141414dd;
+    font-size: 18px;
+}
+
+div.person button {
+   border-radius: none !important;
+    background-color: rgb(218, 216, 213);
+  
+}
+div.person button:hover {
+    background-color: grey;
+}
+/* end about styles */
+
+/* start contact styles */
+div.contact {
+    padding: 0px 30px;
+   
+}
+
+div.contact p {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-    background-color: rgb(255, 255, 255);
     display: block;
     text-align: left;
-    box-sizing: border-box;
 }
 
 input {
@@ -231,31 +249,24 @@ input {
     height: 45px;
     margin-top: 15px;
     margin-bottom: 15px;
-    box-sizing: border-box;
 }
 
-input.message {
-    width: 15%;
-    height: 40px;
+div.contact button{
     background-color: black;
     color: rgb(255, 255, 255);
     font-size: 18px;
     padding: 8px;
     margin-top: 15px;
-    display: inline;
-    box-sizing: border-box;
     margin-bottom: 50px;
+}
+
+div.contact button:hover {
+    background-color: gray;
+
 }
 
 img.contact {
     width: 100%;
-    box-sizing: border-box;
 
 }
 
-div.about-people{
-
-    width: 90%;
-    margin-left: 60px;
-    margin-right: 60px;
-}

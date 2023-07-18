@@ -6,107 +6,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
+    <script src="js/bootstrap.bundle.js"></script>
     <header>
-        <div class="head1">
-            <p class="Architect"><b> BR </b> Architects</p>
-        </div>
-        <nav>
-            <a href="pages/projects.html" target="_blank">Projects</a>
-            <a href="pages/about.html" target="_blank">About</a>
-            <a href="pages/contact.html" target="_blank">Contact</a>
+        <nav class="container-fluid">
+            <div class="row">
+                <div class="logo col-sm-12 col-md-6">
+                    <span><strong>BR</strong>&nbsp; Architects</span>
+                </div>
+                <div class="menu logo col-sm-12 col-md-6 ">
+                    <ul>
+                        <li class="first"><a href="pages/projects.html" target="_blank">Projects</a></li>
+                        <li><a href="pages/about.html" target="_blank">About</a></li>
+                        <li><a href="pages/contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <article>
-            <p class="BR"><span style="background-color: rgba(0, 0, 0, 0.6);padding:8px;">BR</span> Architects</p>
-        </article>
+        <div class="header-content container-fluid">
+            <span><strong>BR</strong> &nbsp; Architects</span>
+        </div>
+
     </header>
-    <div class="main-content" style="margin-top: 50px;">
-        <h1>Projects</h1>
-        <div class="div1">
-            <p class="project">Summer House</p>
-        </div>
-        <div class="div2">
-            <p class="project">Brick House</p>
-        </div>
-        <div class="div3">
-            <p class="project">Renovated</p>
-        </div>
-        <div class="div4">
-            <p class="project">Barn House</p>
-        </div>
-        <div class="div5">
-            <p class="project">Summer House</p>
-        </div>
-        <div class="div6">
-            <p class="project">Brick House</p>
-        </div>
-        <div class="div7">
-            <p class="project">Renovated</p>
-        </div>
-        <div class="div8">
-            <p class="project">Barn House</p>
-        </div>
-    </div>
+    <main>
+        <!-- start projects -->
+        <div class="projects container-fluid mx-auto">
+            <h1>Projects</h1>
 
-    <div style="clear:both;height:650px;margin-top:100px; padding-top:35px;" class="about-people">
-        <h1>About</h1>
-        <p class="head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolore repellat nisi
-            possimus saepe
-            assumenda deserun
-            t at, explicabo culpa et ad itaque laboriosam quibusdam debitis nihil iste nostrum ipsum labore?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquid ex ullam. Natus, eligendi.
-            Nostrum, velit debitis nam eveniet numquam fa
-            cilis tenetur, maxime laborum placeat animi assumenda sed culpa amet?
-        </p>
-        <div class="about1">
-            <img src="images/team2.jpg" class="about">
-            <h2>John Doe</h2>
-            <h3>CEO & Founder</h3>
-            <p class="note1">Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
-                inventore Lorem ipsum dolor sit amet </p>
-            <button>Contact</button>
+            <div class="row g-3 container-fluid mx-auto project-row">
+                <div class="project1 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Summer House</span>
+                </div>
+                <div class="project2 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Brick House</span>
+                </div>
+                <div class="project3 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Renovated</span>
+                </div>
+                <div class="project4 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Barn House</span>
+                </div>
+                <div class="project5 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Summer House</span>
+                </div>
+                <div class="project6 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Brick House</span>
+                </div>
+                <div class="project7 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Renovated</span>
+                </div>
+                <div class="project8 col-sm-12 col-md-6 col-lg-3">
+                    <span class="img-text">Barn House</span>
+                </div>
+            </div>
         </div>
-        <div class="about2">
-            <img src="images/team1.jpg" class="about">
-            <h2>John Doe</h2>
-            <h3>Architect</h3>
-            <p class="note1">Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
-                inventore Lorem ipsum dolor sit amet </p>
-            <button>Contact</button>
+        <!-- end projects -->
+        <!-- start about  -->
+        <div class="about container-fluid">
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dolore repellat nisi
+                possimus saepe
+                assumenda deserun
+                t at, explicabo culpa et ad itaque laboriosam quibusdam debitis nihil iste nostrum ipsum labore?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aliquid ex ullam. Natus, eligendi.
+                Nostrum, velit debitis nam eveniet numquam fa
+                cilis tenetur, maxime laborum placeat animi assumenda sed culpa amet?
+            </p>
+            <div class="people row">
+                <div class="person col-sm-12 col-md-6 col-lg-3">
+                    <img src="images/team2.jpg" class="img-fluid">
+                    <h2>John Doe</h2>
+                    <h3>CEO & Founder</h3>
+                    <p>Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
+                        inventore Lorem ipsum dolor sit amet </p>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-block ">Contact</button>
+                    </div>
+                </div>
+                <div class="person col-sm-12 col-md-6 col-lg-3" class="img-fluid">
+                    <img src="images/team1.jpg">
+                    <h2>John Doe</h2>
+                    <h3>Architect</h3>
+                    <p>Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
+                        inventore Lorem ipsum dolor sit amet </p>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-block ">Contact</button>
+                    </div>
+                </div>
+                <div class="person col-sm-12 col-md-6 col-lg-3" class="img-fluid">
+                    <img src="images/team3.jpg">
+                    <h2>Mike Ross</h2>
+                    <h3>Architect</h3>
+                    <p>Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
+                        inventore Lorem ipsum dolor sit amet </p>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-block ">Contact</button>
+                    </div>
+                </div>
+                <div class="person col-sm-12 col-md-6 col-lg-3" >
+                    <img src="images/team4.jpg">
+                    <h2>Dan Star</h2>
+                    <h3>Architect</h3>
+                    <p>Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
+                        inventore Lorem ipsum dolor sit amet </p>
+                    <div class="d-grid">
+                        <button type="button" class="btn btn-block ">Contact</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="about3">
-            <img src="images/team3.jpg" class="about">
-            <h2>Mike Ross</h2>
-            <h3>Architect</h3>
-            <p class="note1">Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
-                inventore Lorem ipsum dolor sit amet </p>
-            <button>Contact</button>
-        </div>
-        <div class="about4">
-            <img src="images/team4.jpg" class="about">
-            <h2>Dan Star</h2>
-            <h3>Architect</h3>
-            <p class="note1">Lorem ipsum cing elit. Cupiditate ullam quos suscipit recusandae consequatur
-                inventore Lorem ipsum dolor sit amet </p>
-            <button>Contact</button>
-        </div>
-    </div>
 
-    <div style="clear: both;" class="all">
-        <h1>Contact</h1>
-        <p class="contact">Lets get in touch and talk about your next project.</p>
-        <input type="text" name="name" placeholder="Name">
-        <input type="text" name="email" placeholder="Email">
-        <input type="text" name="subject" placeholder="Subject">
-        <input type="text" name="comment" placeholder="Comment">
-        <input type="submit" value="SEND MESSAGE" name="message" class="message">
-        <div>
-            <img src="images/map.jpg" class="contact">
+        <div class="contact container-fluid">
+            <h1>Contact</h1>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form action="">
+                <input type="text" name="name" placeholder="Name">
+                <input type="text" name="email" placeholder="Email">
+                <input type="text" name="subject" placeholder="Subject">
+                <input type="text" name="comment" placeholder="Comment">
+                <button class="btn-lg">SEND MESSAGE</button>
+            </form>
+            <div>
+                <img src="images/map.jpg" class="contact img-fluid">
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
