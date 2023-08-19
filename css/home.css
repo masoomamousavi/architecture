@@ -15,8 +15,8 @@
 
 /* start header */
 
-nav {
-    position: fixed;
+div.nav-part {
+   position: fixed;
     background-color: rgb(255, 255, 255);
     border-bottom: 2px;
     border-bottom: ridge;
@@ -24,20 +24,22 @@ nav {
     padding: 15px 30px !important;
 }
 
-a {
+a.nav-link {
     text-decoration: none;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-a:hover {
+a.nav-link:hover {
     color: rgb(135, 138, 141);
     font-size: 22px;
 }
 
 div.logo {
     text-align: left;
+    display: flex !important;
+    align-items: center;
 }
 
 div.logo span {
@@ -59,19 +61,19 @@ div.menu ul {
     margin: 0px;
 }
 
-div.menu ul li {
+div.menu ul li.nav-item {
     display: inline;
     padding: 0px 20px;
 }
 
-div.menu ul li.first {
+/* div.menu ul li.first {
     padding: 0px 20px;
     padding-left: 0px !important;
-}
+} */
 
 div.header-content {
     background-image: url("../images/architect.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     margin: auto;
     height: 800px;
     text-align: center;

@@ -13,20 +13,36 @@
 <body>
     <script src="js/bootstrap.bundle.js"></script>
     <header>
-        <nav class="container-fluid">
-            <div class="row">
-                <div class="logo col-sm-12 col-md-6">
+        <div class="container-fluid nav-part">
+            <div class="row justify-content-between">
+                <div class="logo col-sm-4">
                     <span><strong>BR</strong>&nbsp; Architects</span>
                 </div>
-                <div class="menu logo col-sm-12 col-md-6 ">
-                    <ul>
-                        <li class="first"><a href="pages/projects.html" target="_blank">Projects</a></li>
-                        <li><a href="pages/about.html" target="_blank">About</a></li>
-                        <li><a href="pages/contact.html" target="_blank">Contact</a></li>
-                    </ul>
+                <div class="menu logo col-sm-4 d-flex justify-content-sm-end">
+                    <nav class="navbar navbar-expand-md">
+                        <div class="container-fluid nav-content">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse-nav">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <!-- start collapse -->
+                            <div class="collapse navbar-collapse" id="collapse-nav">
+                                <ul class="navbar-nav text-center">
+                                    <li class="first nav-item"><a href="pages/projects.html" target="_blank"
+                                            class="nav-link">Projects</a></li>
+                                    <li class=" nav-item"><a href="pages/about.html" target="_blank"
+                                            class="nav-link">About</a></li>
+                                    <li class=" nav-item"><a href="pages/contact.html" target="_blank"
+                                            class="nav-link">Contact</a></li>
+                                </ul>
+                            </div>
+                            <!-- end collapse -->
+                        </div>
+                    </nav>
+
                 </div>
             </div>
-        </nav>
+        </div>
         <div class="header-content container-fluid">
             <span><strong>BR</strong> &nbsp; Architects</span>
         </div>
@@ -107,7 +123,7 @@
                         <button type="button" class="btn btn-block ">Contact</button>
                     </div>
                 </div>
-                <div class="person col-sm-12 col-md-6 col-lg-3" >
+                <div class="person col-sm-12 col-md-6 col-lg-3">
                     <img src="images/team4.jpg">
                     <h2>Dan Star</h2>
                     <h3>Architect</h3>
